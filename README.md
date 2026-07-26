@@ -6,6 +6,8 @@
 - 対象モード: Canonical生成
 - 対応端末の第一優先: iPhone 16
 - 配信方式: GitHub Pagesによる静的サイト
+- 画面構成: 4ページ（基本・性格・能力／髪・顔・肌・メイク／体型・衣装・小物／出力）
+- 操作ドック: BACK／RANDOM／NEXT
 
 ## プライバシー
 
@@ -15,6 +17,6 @@
 
 ## リリース情報
 
-- Source commit: `01715ea6516a1c93f8ad5650d668c003fc8b15e3`
+- Source commit: `be41844b014752e88c940e7ad0d14f23fb193c79`
 - Master generation: `master-4.0-20260725-02b26466913f`
 - Published: 2026-07-26 JST

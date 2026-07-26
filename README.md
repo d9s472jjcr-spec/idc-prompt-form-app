@@ -8,6 +8,8 @@
 - 配信方式: GitHub Pagesによる静的サイト
 - 画面構成: 4ページ（基本・性格・能力／髪・顔・肌・メイク／体型・衣装・小物／出力）
 - 操作ドック: BACK／RANDOM／NEXT
+- 初期値: 年齢20、身長157.4cm、B81.1cm、W56.2cm、H81.5cm、能力各30
+- イメージカラー: 1ページ目の基本セクション
 
 ## プライバシー
 
@@ -17,6 +19,6 @@
 
 ## リリース情報
 
-- Source commit: `be41844b014752e88c940e7ad0d14f23fb193c79`
+- Source commit: `6f98cfe011c78f583ec4d89053c7d4082c640177`
 - Master generation: `master-4.0-20260725-02b26466913f`
 - Published: 2026-07-26 JST

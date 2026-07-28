@@ -3,6 +3,7 @@
 個人利用向けCanonical Prompt FormのGitHub Pages公開成果物です。
 
 - 公開URL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/
+- Master v5プレビューURL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/?master=v5
 - 対象モード: Canonical生成
 - 対応端末の第一優先: iPhone 16
 - 配信方式: GitHub Pagesによる静的サイト
@@ -29,6 +30,13 @@
 - 操作通知: 条件変更で値が無効になった場合、処理件数・項目・actionを画面に表示
 - 複数選択上限: Masterの上限を常時表示し、到達後は追加を止めて選択済み項目の解除で復旧。条件外の保持値は元入力監査へ残し、現在件数には含めない
 
+## Master v5プレビュー
+
+- 通常URLは安定版Master v4を使用
+- `?master=v5`を付けた場合だけMaster v5階層入力プレビューを使用
+- v4直近入力はLegacy・確認待ちを分けて非破壊移行
+- 今回のv5実装範囲はCanonical生成のみ。Profile・Live・Offは後続
+
 ## プライバシー
 
 入力値はブラウザ内だけで処理し、サーバーへ送信しません。操作中の直近入力1件だけを端末ブラウザへ保存し、Snapshot、Prompt、解決値、ログ、複数世代の履歴は保存しません。
@@ -37,6 +45,7 @@
 
 ## リリース情報
 
-- Source commit: `59fda9de3a4c988d8d97d944982f955660a05e2c`（Issue #116・PR #117採用済み）
-- Master generation: `master-4.0-20260725-02b26466913f`
-- Published: 2026-07-27 JST
+- Source commit: `62a9bb0585294439bace924c885766ff6fb7be66`
+- Stable Master generation: `master-4.0-20260725-02b26466913f`
+- Preview Master generation: `master-5.0-20260728-545b92777715`
+- Published: 2026-07-28 JST

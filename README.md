@@ -45,7 +45,7 @@
 
 ## リリース情報
 
-- Source commit: `48481520da1a3e2b0ac2072882f2b940f71ba308`
+- Source commit: `b588a7cff7362fc4173d87458dc765b6e89ad1b0`
 - Stable Master generation: `master-4.0-20260725-02b26466913f`
 - Preview Master generation: `master-5.0-20260728-801f766cd017`
 - Published: 2026-07-29 JST

@@ -60,8 +60,8 @@
 
 ## リリース情報
 
-- Source commit: `35017f5d07e86851f10c826aeb9b39477c280193`
+- Source commit: `65b2fc423aac14670320c727e01f42ff86779f9a`
 - Source PR: Draft PR #121（レビュー候補・未マージ）
 - Stable Master generation: `master-4.0-20260725-02b26466913f`
-- Preview Master generation: `master-5.0-20260728-e2262d5e5d44`
+- Preview Master generation: `master-5.0-20260728-613d7df3349b`
 - Published: 2026-07-29 JST

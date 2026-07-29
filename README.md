@@ -58,7 +58,7 @@
 
 ## リリース情報
 
-- Source commit: `98b103bc8ad656689bdd96c249f964480342d616`
+- Source commit: `6c377410900794939678380304167b73d7fc00c9`
 - Source PR: Draft PR #121（レビュー候補・未マージ）
 - Stable Master generation: `master-4.0-20260725-02b26466913f`
 - Preview Master generation: `master-5.0-20260728-d2af4ba0910c`

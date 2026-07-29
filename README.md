@@ -3,7 +3,7 @@
 個人利用向けCanonical Prompt FormのGitHub Pages公開成果物です。
 
 - 公開URL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/
-- Master v5プレビューURL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/?master=v5
+- Master v4ロールバックURL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/?master=v4
 - 対象モード: Canonical生成
 - 対応端末の第一優先: iPhone 16
 - 配信方式: GitHub Pagesによる静的サイト
@@ -39,10 +39,10 @@
 - Cupは表示中のBとアンダーバストから判定
 - Snapshotには自動値を `calculated`、手動値をユーザー選択として記録
 
-## Master v5プレビュー
+## Master v5正式版
 
-- 通常URLは安定運用中のMaster v4を使用
-- `?master=v5`付きURLはMaster v5階層入力プレビューを使用
+- 通常URLは正式運用中のMaster v5を使用
+- `?master=v4`付きURLは旧Master v4へロールバック
 - v4直近入力はLegacy・確認待ちを分けて非破壊移行
 - 体格6候補は肉付き・筋肉・肩幅・全身バランスへ承認済み形状プリセットを適用し、B/W/Hや色は変更しない
 - 子を手動変更すると「ユーザー選択」、親からの適用時は「親プリセット」と表示し、親を変えると子を新プリセットで上書き
@@ -51,6 +51,7 @@
 - 顔プリセットは目の色・メイク色・体型数値を変更せず、子の手動変更と親変更時の再追従に対応
 - 親プリセット導入前の直前v5入力は互換復元し、復元後に現行generationへ更新
 - 現在のv5実装対象はCanonical生成のみ。Profile・Live・Offは後続
+- 正式Master: https://docs.google.com/spreadsheets/d/1j34OVQQOHNsgAoHJqEWPqQjLWBVpdCzX0fEZH96ZGCw/edit
 
 ## プライバシー
 
@@ -60,8 +61,8 @@
 
 ## リリース情報
 
-- Source commit: `65b2fc423aac14670320c727e01f42ff86779f9a`
-- Source PR: Draft PR #121（レビュー候補・未マージ）
-- Stable Master generation: `master-4.0-20260725-02b26466913f`
-- Preview Master generation: `master-5.0-20260728-613d7df3349b`
+- Source commit: `391dd39ad6ccbc8757cdcd237ecf5d209cdedd07`
+- Source PR: Draft PR #122（レビュー候補・未マージ）
+- Default Master generation: `master-5.0-20260729-93151ed68de9`
+- Rollback Master generation: `master-4.0-20260725-02b26466913f`
 - Published: 2026-07-29 JST

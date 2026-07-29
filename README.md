@@ -47,6 +47,8 @@
 - 体格6候補は肉付き・筋肉・肩幅・全身バランスへ承認済み形状プリセットを適用し、B/W/Hや色は変更しない
 - 子を手動変更すると「ユーザー選択」、親からの適用時は「親プリセット」と表示し、親を変えると子を新プリセットで上書き
 - 旧「大柄」は新規候補から外し、保存済み入力だけを「骨格しっかり」へLegacy保持・警告付きで移行
+- 顔の印象16候補は輪郭・目・虹彩・涙袋・眉・鼻・唇の形状11項目へ承認済みプリセットを適用
+- 顔プリセットは目の色・メイク色・体型数値を変更せず、子の手動変更と親変更時の再追従に対応
 - 親プリセット導入前の直前v5入力は互換復元し、復元後に現行generationへ更新
 - 現在のv5実装対象はCanonical生成のみ。Profile・Live・Offは後続
 
@@ -58,8 +60,8 @@
 
 ## リリース情報
 
-- Source commit: `6c37741806c5f1dfc264bb09f2fffe03dca2d787`
+- Source commit: `35017f5d07e86851f10c826aeb9b39477c280193`
 - Source PR: Draft PR #121（レビュー候補・未マージ）
 - Stable Master generation: `master-4.0-20260725-02b26466913f`
-- Preview Master generation: `master-5.0-20260728-d2af4ba0910c`
+- Preview Master generation: `master-5.0-20260728-e2262d5e5d44`
 - Published: 2026-07-29 JST

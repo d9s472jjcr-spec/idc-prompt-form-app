@@ -44,6 +44,10 @@
 - 通常URLは安定運用中のMaster v4を使用
 - `?master=v5`付きURLはMaster v5階層入力プレビューを使用
 - v4直近入力はLegacy・確認待ちを分けて非破壊移行
+- 体格6候補は肉付き・筋肉・肩幅・全身バランスへ承認済み形状プリセットを適用し、B/W/Hや色は変更しない
+- 子を手動変更すると「ユーザー選択」、親からの適用時は「親プリセット」と表示し、親を変えると子を新プリセットで上書き
+- 旧「大柄」は新規候補から外し、保存済み入力だけを「骨格しっかり」へLegacy保持・警告付きで移行
+- 親プリセット導入前の直前v5入力は互換復元し、復元後に現行generationへ更新
 - 現在のv5実装対象はCanonical生成のみ。Profile・Live・Offは後続
 
 ## プライバシー
@@ -54,8 +58,8 @@
 
 ## リリース情報
 
-- Source commit: `e5ec28a6d3bfe3da9f0b44cca41eef08231f4608`
+- Source commit: `98b103bc8ad656689bdd96c249f964480342d616`
 - Source PR: Draft PR #121（レビュー候補・未マージ）
 - Stable Master generation: `master-4.0-20260725-02b26466913f`
-- Preview Master generation: `master-5.0-20260728-801f766cd017`
+- Preview Master generation: `master-5.0-20260728-d2af4ba0910c`
 - Published: 2026-07-29 JST

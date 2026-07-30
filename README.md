@@ -29,6 +29,7 @@
 - 操作通知: 条件変更で値が無効になった場合、処理件数・項目・actionを画面に表示
 - 複数選択上限: Masterの上限を常時表示し、到達後は追加を止めて選択済み項目の解除で復旧。条件外の保持値は元入力監査へ残し、現在件数には含めない
 - 衣装プリセット画像: 48種の形状見本をiPhone 16幅では2列表示し、選択後も縮小見本を表示。見本内の赤・白は衣装カラーへ反映しない
+- Canonical品質プロファイル: 三面Promptへ共通の`idc-canonical-quality-1.0.0`を出力し、選択済みビジュアルテイストを維持したまま、可視部分、素材分離、衣装構造、身体整合、照明・階調、破綻防止の品質条件を適用
 
 ## 体型自動計算 v1.2
 
@@ -62,8 +63,8 @@
 
 ## リリース情報
 
-- Source commit: `e8e972ebf1e74ad225cd890d88893ee44e3b4908`
-- Source PR: PR #127（マージ済み）
+- Source commit: `5d2dc91d283ddf66b29d2f5c38a88bffd4de1fcb`
+- Source PR: PR #128（マージ済み）
 - Default Master generation: `master-5.1-20260730-21e1d637339c`
 - Rollback Master generation: `master-4.0-20260725-02b26466913f`
 - Published: 2026-07-31 JST

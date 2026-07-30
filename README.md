@@ -28,6 +28,7 @@
 - 無効値処理: 正式action（解除・初期値へ変更・保持）に従い、元入力を監査値として保ったままPrompt用の解決済み値から無効部分を除外
 - 操作通知: 条件変更で値が無効になった場合、処理件数・項目・actionを画面に表示
 - 複数選択上限: Masterの上限を常時表示し、到達後は追加を止めて選択済み項目の解除で復旧。条件外の保持値は元入力監査へ残し、現在件数には含めない
+- 衣装プリセット画像: 48種の形状見本をiPhone 16幅では2列表示し、選択後も縮小見本を表示。見本内の赤・白は衣装カラーへ反映しない
 
 ## 体型自動計算 v1.2
 
@@ -61,8 +62,8 @@
 
 ## リリース情報
 
-- Source commit: `391dd39ad6ccbc8757cdcd237ecf5d209cdedd07`
-- Source PR: Draft PR #122（レビュー候補・未マージ）
-- Default Master generation: `master-5.0-20260729-93151ed68de9`
+- Source commit: `c05b0122d95803be2b18c82d29fb9ae99658f79b`
+- Source PR: PR #125（マージ済み）
+- Default Master generation: `master-5.1-20260730-21e1d637339c`
 - Rollback Master generation: `master-4.0-20260725-02b26466913f`
-- Published: 2026-07-29 JST
+- Published: 2026-07-30 JST

@@ -62,8 +62,8 @@
 
 ## リリース情報
 
-- Source commit: `c05b0122d95803be2b18c82d29fb9ae99658f79b`
-- Source PR: PR #125（マージ済み）
+- Source commit: `e8e972ebf1e74ad225cd890d88893ee44e3b4908`
+- Source PR: PR #127（マージ済み）
 - Default Master generation: `master-5.1-20260730-21e1d637339c`
 - Rollback Master generation: `master-4.0-20260725-02b26466913f`
-- Published: 2026-07-30 JST
+- Published: 2026-07-31 JST

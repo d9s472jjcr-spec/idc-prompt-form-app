@@ -1,6 +1,6 @@
 {
-  "source_commit": "5d2dc91d283ddf66b29d2f5c38a88bffd4de1fcb",
-  "release_state": "adopted",
+  "source_commit": "9d72e0968995faec4bff68e40566b0e61d67fc23",
+  "release_state": "review_candidate",
   "master_generation": "master-5.1-20260730-21e1d637339c",
   "rollback_master_generation": "master-4.0-20260725-02b26466913f",
   "published_on": "2026-07-31",

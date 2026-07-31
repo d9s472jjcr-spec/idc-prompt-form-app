@@ -30,7 +30,8 @@
 - 複数選択上限: Masterの上限を常時表示し、到達後は追加を止めて選択済み項目の解除で復旧。条件外の保持値は元入力監査へ残し、現在件数には含めない
 - 衣装プリセット画像: 48種の形状見本をiPhone 16幅では2列表示し、選択後も縮小見本を表示。見本内の赤・白は衣装カラーへ反映しない
 - Canonical品質プロファイル: 三面Promptへ共通の`idc-canonical-quality-1.0.0`を出力し、選択済みビジュアルテイストを維持したまま、可視部分、素材分離、衣装構造、身体整合、照明・階調、破綻防止の品質条件を適用
-- 選択素材描画プロファイル: `CST015`と`CST016`で選択済みの素材だけを`idc-material-rendering-1.0.0`で補足し、未選択素材や未指定デザインを追加しない
+- Canonical固定レッスン着候補: PR #131の公開確認用として、アイドル衣装・オフ衣装・アイウェア・アクセサリー入力をPromptから除外し、固定レッスン着だけを三面へ適用。元入力は`excluded_by_route`へ監査保持
+- Snapshot v3候補: Canonical Identity Block v2、固定衣装hash、用途別generation context、14件の最終検査を出力し、日本人女性を生成対象として各Promptへ一度だけ明記
 - 生成画像QA: 出力プレビューへ`idc-canonical-quality-qa-1.0.0`の手動確認7項目を表示。チェック状態はSnapshot・Prompt・採用状態へ書き戻さない
 
 ## 体型自動計算 v1.2
@@ -65,8 +66,8 @@
 
 ## リリース情報
 
-- Source commit: `9d72e0968995faec4bff68e40566b0e61d67fc23`
-- Source PR: PR #129（マージ済み）
+- Source commit: `17bc25ee8b70a68d5309d638f1deb57de1692ef0`
+- Source PR: PR #131（マージ済み・公開確認候補）
 - Default Master generation: `master-5.1-20260730-21e1d637339c`
 - Rollback Master generation: `master-4.0-20260725-02b26466913f`
 - Published: 2026-07-31 JST

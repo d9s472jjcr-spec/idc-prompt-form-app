@@ -1,8 +1,8 @@
 {
-  "source_commit": "17bc25ee8b70a68d5309d638f1deb57de1692ef0",
-  "release_state": "adopted",
+  "source_commit": "f0065379d212100fe1902d458fe3e4255d603cd6",
+  "release_state": "review_candidate",
   "master_generation": "master-5.1-20260730-21e1d637339c",
   "rollback_master_generation": "master-4.0-20260725-02b26466913f",
-  "published_on": "2026-07-31",
+  "published_on": "2026-08-01",
   "site_url": "https://d9s472jjcr-spec.github.io/idc-prompt-form-app/"
 }

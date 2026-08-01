@@ -4,7 +4,7 @@
 
 - 公開URL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/
 - Master v4ロールバックURL: https://d9s472jjcr-spec.github.io/idc-prompt-form-app/?master=v4
-- 対象モード: Canonical生成
+- 対象モード: Canonical／Profile／Live／Off生成
 - 対応端末の第一優先: iPhone 16
 - 配信方式: GitHub Pagesによる静的サイト
 - 画面構成: 4ページ（基本・性格・能力／髪・顔・肌・メイク／体型・衣装・アイウェア・アクセサリー／出力プレビュー）
@@ -32,6 +32,7 @@
 - Canonical品質プロファイル: 三面Promptへ共通の`idc-canonical-quality-1.0.0`を出力し、選択済みビジュアルテイストを維持したまま、可視部分、素材分離、衣装構造、身体整合、照明・階調、破綻防止の品質条件を適用
 - Canonical固定レッスン着候補: PR #131の公開確認用として、アイドル衣装・オフ衣装・アイウェア・アクセサリー入力をPromptから除外し、固定レッスン着だけを三面へ適用。元入力は`excluded_by_route`へ監査保持
 - Snapshot v3候補: Canonical Identity Block v2、固定衣装hash、用途別generation context、14件の最終検査を出力し、日本人女性を生成対象として各Promptへ一度だけ明記
+- 用途別衣装ワークフロー候補: PR #136の公開確認用として、Canonicalは固定レッスン着、Profileはアイドル衣装／オフ衣装、Liveはアイドル衣装、Offはオフ衣装へfail-closedで接続。Canonical人物Snapshotを再検証し、非Canonical用Prompt・Snapshot v3・ZIPを出力
 - 生成画像QA: 出力プレビューへ`idc-canonical-quality-qa-1.0.0`の手動確認7項目を表示。チェック状態はSnapshot・Prompt・採用状態へ書き戻さない
 
 ## 体型自動計算 v1.2
@@ -55,7 +56,7 @@
 - 顔の印象16候補は輪郭・目・虹彩・涙袋・眉・鼻・唇の形状11項目へ承認済みプリセットを適用
 - 顔プリセットは目の色・メイク色・体型数値を変更せず、子の手動変更と親変更時の再追従に対応
 - 親プリセット導入前の直前v5入力は互換復元し、復元後に現行generationへ更新
-- 現在のv5実装対象はCanonical生成のみ。Profile・Live・Offは後続
+- 現在のv5実装対象はCanonical／Profile／Live／Off生成。非Canonical固有のcamera／pose／background／lighting拡張は後続
 - 正式Master: https://docs.google.com/spreadsheets/d/1j34OVQQOHNsgAoHJqEWPqQjLWBVpdCzX0fEZH96ZGCw/edit
 
 ## プライバシー
@@ -66,8 +67,8 @@
 
 ## リリース情報
 
-- Source commit: `17bc25ee8b70a68d5309d638f1deb57de1692ef0`
-- Source PR: PR #131（マージ済み・公開確認候補）
+- Source commit: `f0065379d212100fe1902d458fe3e4255d603cd6`
+- Source PR: PR #136（マージ済み・公開確認候補）
 - Default Master generation: `master-5.1-20260730-21e1d637339c`
 - Rollback Master generation: `master-4.0-20260725-02b26466913f`
-- Published: 2026-07-31 JST
+- Published: 2026-08-01 JST

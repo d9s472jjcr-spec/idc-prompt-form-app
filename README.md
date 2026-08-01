@@ -33,6 +33,7 @@
 - Canonical固定レッスン着候補: PR #131の公開確認用として、アイドル衣装・オフ衣装・アイウェア・アクセサリー入力をPromptから除外し、固定レッスン着だけを三面へ適用。元入力は`excluded_by_route`へ監査保持
 - Snapshot v3候補: Canonical Identity Block v2、固定衣装hash、用途別generation context、14件の最終検査を出力し、日本人女性を生成対象として各Promptへ一度だけ明記
 - 用途別衣装ワークフロー候補: PR #136の公開確認用として、Canonicalは固定レッスン着、Profileはアイドル衣装／オフ衣装、Liveはアイドル衣装、Offはオフ衣装へfail-closedで接続。Canonical人物Snapshotを再検証し、非Canonical用Prompt・Snapshot v3・ZIPを出力
+- 用途選択ダークモード修正候補: PR #137の公開確認用として、生成用途パネル、用途バッジ、選択・未選択・無効・フォーカス状態をダークテーマへ統一
 - 生成画像QA: 出力プレビューへ`idc-canonical-quality-qa-1.0.0`の手動確認7項目を表示。チェック状態はSnapshot・Prompt・採用状態へ書き戻さない
 
 ## 体型自動計算 v1.2
@@ -67,8 +68,8 @@
 
 ## リリース情報
 
-- Source commit: `f0065379d212100fe1902d458fe3e4255d603cd6`
-- Source PR: PR #136（マージ済み・公開確認候補）
+- Source commit: `40a9c5ed0a54ec7294c26d44401a0289731a0900`
+- Source PR: PR #137（マージ済み・公開確認候補）
 - Default Master generation: `master-5.1-20260730-21e1d637339c`
 - Rollback Master generation: `master-4.0-20260725-02b26466913f`
 - Published: 2026-08-01 JST
